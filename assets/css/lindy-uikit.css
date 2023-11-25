@@ -925,20 +925,6 @@ p {
   width: 100%;
 }
 
-.gallery-style-4 .single-gallery .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease-out 0s;
-  background: rgba(47, 128, 237, 0.3);
-}
 
 .gallery-style-4 .single-gallery .overlay .action {
   transform: translateY(20px);
