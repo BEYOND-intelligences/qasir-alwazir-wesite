@@ -2456,6 +2456,8 @@ margin-right: 15px;
   
 }
 
+
+
 .lang-Selector:click {
   display: block;
   position: absolute;
@@ -2468,4 +2470,6 @@ margin-right: 15px;
 .page-scroll{
   cursor: pointer;
 }
+
+
 
