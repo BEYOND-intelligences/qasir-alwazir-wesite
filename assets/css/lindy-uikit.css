@@ -811,7 +811,7 @@ p {
 }
 
 .feature-style-5 .single-feature:hover {
-  border-color: #00a695;
+  border-color: #f90000;
   box-shadow: 0px 8px 25px rgba(47, 128, 237, 0.35);
 }
 
@@ -2451,6 +2451,33 @@ margin-right: 15px;
 
 .nav-item:hover .sub-menu-1 ul li {
   width: 100px;
+  padding: 5px;
+  border-bottom: 1px solid #ffffff;
+  
+}
+
+.sub-menu-2{
+  display:none ;
+}
+
+.nav-item:hover .sub-menu-2{
+display: block;
+animation-delay: 5s;
+position: absolute;
+background-color:  white;
+margin-top: 1px;
+margin-right: 15px;
+
+}
+
+.nav-item:hover .sub-menu-2 ul {
+  display: block;
+  margin: 10px;
+  
+}
+
+.nav-item:hover .sub-menu-2 ul li {
+  width: 200px;
   padding: 5px;
   border-bottom: 1px solid #ffffff;
   
