@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sec2</title>
+    <link rel="stylesheet" href="aa.css">
+</head>
+<body>
+
+
+    <ul class="product-list">
+        <li><a href="#"><img src="/assets/img/براند.png" alt="Product 1"></a></li>
+        <li><a href="#"><img src="path/to/product2.jpg" alt="Product 2"></a></li>
+        <li><a href="#"><img src="path/to/product3.jpg" alt="Product 3"></a></li>
+        <!-- إضافة المزيد من العناصر حسب عدد المنتجات -->
+    </ul>
+    <div class="product-display">
+        <img src="" alt="Selected Product Image" id="selected-product">
+    </div>
+    
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const productImages = document.querySelectorAll('.product-list img');
+    const displayImage = document.getElementById('selected-product');
+
+    productImages.forEach(function(image) {
+        image.addEventListener('click', function() {
+            displayImage.src = this.src;
+            displayImage.style.display = 'block';
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
