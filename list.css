@@ -2,13 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&family=Heebo:wght@300;400;500;600;700;800;900&display=swap");
 
 
-*{
-  margin: 0%;
-  padding: 0%;
-}
-
-
-
 /* ============================= 
     COMMON CSS
 ================================ */
@@ -812,16 +805,16 @@ p {
 .feature-style-5 .single-feature {
   padding: 30px 30px;
   border-radius: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   box-shadow: 0px 5px 25px rgba(218, 211, 211, 0.3);
   text-align: center;
-  border-bottom: 5px solid #585978;
+  border-bottom: 5px solid #3c3d5f;
   transition: all 0.3s ease-out 0s;
 }
 
 .feature-style-5 .single-feature:hover {
   border-color: #f90000;
-  box-shadow: 0px 8px 25px rgba(47, 128, 237, 0.35);
+  box-shadow: 0px 8px 25px rgba(36, 116, 220, 0.35);
 }
 
 .feature-style-5 .single-feature .icon {
@@ -843,11 +836,13 @@ p {
   top: 0;
   left: 0;
   z-index: -1;
+  
 }
 
 .feature-style-5 .single-feature .content h5 {
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  padding-top: 15px;
 }
 
 /* ============================= 
