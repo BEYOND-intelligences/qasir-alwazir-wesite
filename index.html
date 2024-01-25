@@ -216,10 +216,10 @@
                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; padding-bottom: 18px;">القوة التجارية تبدأ من هنا
               </h3>
               <p class="wowfadeInUp" data-wow-delay=".3s"
-                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"> <span class="company">شركة قصر الوزير للتجارة العامة </span>
+                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"> <span style="font-size: 24px;">شركة قصر الوزير للتجارة العامة </span>
               </p>
             </div>
-            <ul>
+            <ul style="font-size: 22px;">
               <li class="wowfadeInUp" data-wow-delay=".35s"
                 style="visibility: visible; animation-delay: 0.35s; animation-name: fadeInUp;">
                 <i class="lni lni-checkmark-circle"></i>
@@ -402,8 +402,10 @@
       <div class="row">
         <div class="col-lg-8">
           <div class="contact-form-wrapper">
-            <form action="assets/php/contact.php" method="POST">
+
+            <form action="https://api.web3forms.com/submit" method="POST">
               <div class="row">
+                <input type="hidden" name="access_key" value="6a0655fb-0da5-4760-b2a7-2bc31b9e4a20">
                 <div class="col-md-6">
                   <div class="single-input">
                     <input type="text" id="name" name="name" class="form-input" placeholder="الاسم">
@@ -441,6 +443,7 @@
                 </div>
               </div>
             </form>
+
           </div>
         </div>
         <div class="col-lg-4">
